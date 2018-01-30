@@ -1,0 +1,285 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SGDText -F 0 -L 0.01 -R 1.0E-4 -E 500 -P 0 -M 3.0 -min-coeff 0.001 -norm 1.0 -lnorm 2.0 -stopwords-handler weka.core.stopwords.Null -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"" -stemmer weka.core.stemmers.NullStemmer -S 1
+Relation:     Suicide_risk
+Instances:    303
+Attributes:   3
+              Id
+              Content
+              Sentiment
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SGDText:
+
+Loss function: Hinge loss (SVM)
+
+Dictionary size: 235
+
+Sentiment = 
+
+        -0.5397 &amp 10.0
+ +       0.1599 I 159.0
+ +      -0.09   years 3.0
+ +      -0.2699 of 56.0
+ +      -0.8396 today 10.0
+ +      -0.1    still 3.0
+ +      -2.7288 love 23.0
+ +       0.2599 my 42.0
+ +      -0.08   best 5.0
+ +      -1.5293 celebrating 8.0
+ +      -0.6798 with 11.0
+ +      -0.1    have 18.0
+ +      -0.2399 a 61.0
+ +      -0.03   plan 4.0
+ +      -0.3298 to 108.0
+ +       0.7397 kill 18.0
+ +      -0.01   myself 9.0
+ +      -0.05   i 29.0
+ +       1.0196 m 37.0
+ +      -0.5597 too 7.0
+ +       1.2994 depressed 14.0
+ +       0.1099 go 9.0
+ +      -0.8896 on 18.0
+ +      -0.0899 you 76.0
+ +       0.3299 ll 13.0
+ +      -0.04   be 51.0
+ +       0.6297 sorry 12.0
+ +       0.6797 when 15.0
+ +       0.4098 gone 11.0
+ +       0.06   The 8.0
+ +      -0.2899 most 4.0
+ +      -0.2199 important 7.0
+ +      -0.06   thing 4.0
+ +      -0.8996 in 38.0
+ +      -0.2598 life 43.0
+ +      -0.1199 is 49.0
+ +      -0.4998 what 9.0
+ +      -0.6497 s 20.0
+ +       0.04   about 12.0
+ +       0.4998 me 57.0
+ +      -1.6993 You 11.0
+ +      -0.8996 up 13.0
+ +      -0.8697 feeling 10.0
+ +      -0.8896 great 6.0
+ +       0.5697 all 18.0
+ +       0.1699 wanted 3.0
+ +      -0.4198 was 6.0
+ +       0.6697 some 4.0
+ +       0.3099 but 11.0
+ +       0.4198 now 17.0
+ +      -0.4798 can 14.0
+ +       0.5797 t 28.0
+ +       0.1399 even 3.0
+ +      -0.2199 for 34.0
+ +      -0.3598 that 19.0
+ +       0.1499 it 36.0
+ +      -1.3994 going 6.0
+ +       0.09   hopeless 3.0
+ +       0.9896 and 72.0
+ +       0.04   think 6.0
+ +       0.1699 family 14.0
+ +       0.2899 would 16.0
+ +       0.2899 better 16.0
+ +       0.5797 off 17.0
+ +      -0.1599 without 18.0
+ +      -1.6093 RT 82.0
+ +       0.3299 Had 3.0
+ +       0.2399 one 9.0
+ +       0.2299 those 3.0
+ +       0.5098 goes 3.0
+ +       0.2399 well 6.0
+ +       0.3998 hanging 3.0
+ +      -0.7497 pleased 3.0
+ +      -0.3199 will 7.0
+ +      -0.2799 Why 4.0
+ +      -0.5797 U 5.0
+ +       1.0396 this 19.0
+ +       0.5398 threatening 4.0
+ +       0.5298 emails 3.0
+ +      -0.09   from 9.0
+ +      -0.3099 are 8.0
+ +       0.6798 the 63.0
+ +       0.2299 so 14.0
+ +       0.4398 http 11.0
+ +      -0.1299 //t 31.0
+ +      -0.4598 My 11.0
+ +      -1.7592 Congratulations 8.0
+ +      -0.2699 school 7.0
+ +      -0.1199 hope 3.0
+ +       0.1399 like 11.0
+ +      -0.1199 do 10.0
+ +      -0.2499 God 5.0
+ +      -0.02   full 9.0
+ +      -0.4798 joy 9.0
+ +      -0.6697 Thank 3.0
+ +       0.3998 hate 6.0
+ +      -0.2999 yourself 8.0
+ +       0.1599 before 7.0
+ +       0.1    someone 5.0
+ +      -0.2299 else 3.0
+ +       1.0195 over 4.0
+ +      -0.1199 world 6.0
+ +      -0.4598 u 3.0
+ +       0.7197 again 6.0
+ +       0.08   out 3.0
+ +      -0.4598 It 8.0
+ +      -1.4693 your 22.0
+ +       0.2599 if 14.0
+ +      -0.1899 re 6.0
+ +      -1.2195 not 11.0
+ +       1.0395 want 27.0
+ +       0.7597 die 19.0
+ +       0.1999 Kill 3.0
+ +      -0.5697 https 20.0
+ +      -1.5493 fun 5.0
+ +       0.02   When 3.0
+ +      -0.1    always 4.0
+ +      -0.1    her 7.0
+ +       0.09   know 6.0
+ +       0.04   she 4.0
+ +       0.4498 been 6.0
+ +      -0.6397 through 3.0
+ +      -0.06   everyone 4.0
+ +      -0.1199 friends 4.0
+ +      -1.2795 they 7.0
+ +       0.6297 cutting 5.0
+ +       0.6297 wrist 5.0
+ +       0.04   self 3.0
+ +      -0.08   say 3.0
+ +      -0.1799 thinking 4.0
+ +      -0.6797 positive 6.0
+ +      -0.2199 happier 5.0
+ +      -0.7297 hard 3.0
+ +       0.9396 alone 7.0
+ +      -0.8296 No 5.0
+ +      -0.8196 time 3.0
+ +       0.5098 ve 4.0
+ +       0.5098 depression 4.0
+ +      -1.3594 2 6.0
+ +      -1.0495 more 5.0
+ +      -0.5298 work 8.0
+ +      -0.6997 Life 7.0
+ +       0.4798 isn 6.0
+ +      -0.09   things 4.0
+ +      -2.0191 enjoy 7.0
+ +      -0.1    enjoying 3.0
+ +      -0.3099 back 3.0
+ +       0.04   how 4.0
+ +      -0.09   move 4.0
+ +      -0.6897 ahead 5.0
+ +      -0.2599 we 4.0
+ +       0.4598 just 16.0
+ +      -2.0192 give 3.0
+ +      -0.02   first 6.0
+ +      -0.06   Be 3.0
+ +      -1.6793 happy 10.0
+ +      -0.8296 or 8.0
+ +      -1.2094 Love 12.0
+ +      -1.0695 Happy 11.0
+ +       0.03   What 5.0
+ +      -0.3698 done 3.0
+ +      -0.1799 nothing 5.0
+ +      -0.9096 good 11.0
+ +       0.14   This 7.0
+ +      -0.3398 got 6.0
+ +       0.1099 way 3.0
+ +       0.2899 after 3.0
+ +      -0.4698 live 6.0
+ +      -0.1799 peace 3.0
+ +       1.1595 end 9.0
+ +      -0.1699 get 10.0
+ +      -0.5598 right 4.0
+ +       0.5098 who 4.0
+ +       0.06   Just 5.0
+ +       0.07   person 3.0
+ +      -0.03   anything 3.0
+ +       0.8696 hearted 4.0
+ +      -0.3898 birthday 6.0
+ +      -0.2899 talented 3.0
+ +      -0.1599 People 3.0
+ +       0.5697 Want 4.0
+ +      -0.2399 moment 3.0
+ +       0.1699 guys 4.0
+ +      -0.8496 Your 3.0
+ +       0.6297 see 8.0
+ +       0.2998 suicide 8.0
+ +       0.3299 very 8.0
+ +       0.7896 why 6.0
+ +      -0.2299 don 10.0
+ +       0.3398 suicidal 3.0
+ +       0.1899 ever 5.0
+ +       0.06   probably 3.0
+ +       0.2898 day 12.0
+ +      -0.1499 Not 4.0
+ +      -1.0096 am 18.0
+ +       0.6797 wish 6.0
+ +      -0.2599 anxiety 3.0
+ +      -0.6997 were 7.0
+ +       0.6497 dead 4.0
+ +       1.1395 an 7.0
+ +      -2.209  Enjoy 6.0
+ +       1.0895 at 6.0
+ +      -0.01   worth 5.0
+ +       0.4098 living 3.0
+ +      -1.9691 loving 6.0
+ +      -1.2594 Positive 3.0
+ +       0.1799 anyways 3.0
+ +      -0.8696 our 3.0
+ +       0.3398 as 6.0
+ +       0.03   every 3.0
+ +       0.01   really 6.0
+ +       0.2799 sick 4.0
+ +      -0.4398 amazing 3.0
+ +       0.2199 people 4.0
+ +      -0.02   Always 3.0
+ +      -0.04   anyone 4.0
+ +       0.3398 Indirect 3.0
+ +       0.4098 feel 3.0
+ +       0.03   no 5.0
+ +       0.3798 Heavy 3.0
+ +       0.2099 makes 4.0
+ +      -0.09   should 3.0
+ +       0.03   point 3.0
+ +      -0.2799 by 6.0
+ +       0.7896 tweets 3.0
+ +      -0.1799 n 3.0
+ +      -0.4898 times 3.0
+ +      -0.1699 keep 4.0
+ +      -0.1399 others 3.0
+ +       0.4198 indirect 3.0
+ +       0.09   kind 3.0
+ +       0.2899 lose 4.0
+ +       0.2999 deserve 3.0
+ +       0.4398 then 3.0
+ +       0.3698 heart 5.0
+ +       1     
+
+Time taken to build model: 13.24 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         259               85.4785 %
+Incorrectly Classified Instances        44               14.5215 %
+Kappa statistic                          0.6973
+Mean absolute error                      0.1452
+Root mean squared error                  0.3811
+Relative absolute error                 29.7514 %
+Root relative squared error             77.1419 %
+Total Number of Instances              303     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.766    0.080    0.875      0.766    0.817      0.702    0.843     0.769     Positive
+                 0.920    0.234    0.843      0.920    0.880      0.702    0.843     0.822     Negative
+Weighted Avg.    0.855    0.169    0.856      0.855    0.853      0.702    0.843     0.799     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  98  30 |   a = Positive
+  14 161 |   b = Negative
+
